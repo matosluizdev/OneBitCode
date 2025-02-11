@@ -6,68 +6,79 @@
     font-family: "Arvo";
 }
 
+header {
+    border-bottom: 1px solid #030308;
+    font-size: 1.125rem;
+    padding: 2rem 0;
+    text-align: center;
+}
+
 h1, h2 {
-    text-align: center;
-    font-weight: 300;
-    margin-bottom: 0.5em;
-    margin-top: 0.5em;
-}
-p {
-    text-align: center;
-    font-weight: 300;
-    margin-bottom: 1em;
-    font-size: 0.75rem;
+    font-family: "Lora", serif;
+    font-weight: 400;
 }
 
-p > a {
-    margin-top: 10px;
-}
-hr {
-    border: 1px solid black;
-    margin: 1em 1em;
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
 }
 
-a, li{
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.feature, .catalog, .cta {
+    font-size: 1.125rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #030308;
+    border-radius: 9999px;
     color: #fff;
-    background-color: #44b9e7;
-    padding: 10px;
-    border-radius: 2em;
+    display: block;
+    margin: 2rem auto;
+    padding: 1rem 1.5rem;
+    width: fit-content;
     text-decoration: none;
-    margin-top: 15px;
-}
-
-section {
-    text-align: center;
-}
-
-
-.destaque {
-    font-weight: 700;
     text-transform: uppercase;
-    background-color: black;
+}
+
+.genres > li {
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+.genres > li + li {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.genre > a,
+.see-more > a {
+    background-color: #43abf6;
+    border-radius: 9999px;
+    color: #fff;
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+}
+
+.see-more > a {
+    background-color: #030308;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #030308;
+    color: #fff;
+    font-family: "Arvo", serif;
+    padding: 2rem;
+    text-align: center;
 }
 
 img {
     width: 500px;
-    height: auto;
-    margin-bottom: 1em;
-}
-
-ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    gap: 10px;
-    cursor: pointer;
-    font-size: 11px;
-}
-
-footer {
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    text-align: center;
-    background-color: #1a1a1a;
-    padding: 20px;
-    color: #fff;
 }
