@@ -2,11 +2,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Oxygen, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif";
+    font-family: "Oxygen", sans-serif;
 }
 
 :root {
     --color-background-color: #030207;
     --color-white: #fff;
     --color-blue: #1474b4;
+}
+
+body {
+    background-color: var(--color-background-color);
+    color: var(--color-white);
+}
+
+a {
+    color: var(--color-blue);
+}
+
+.hero {
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), var(--color-background-color));
+}
+
+.hero__background {
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -10;
+    top: 0;
+}
+
+.hero__foreground {
+    text-align: center;
+    color: var(--color-white);
+    padding-top: 40vh;
+}
+
+.hero__title {
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+.hero__text {
+    margin-top: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
 }
