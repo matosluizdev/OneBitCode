@@ -41,3 +41,25 @@ Sintaxe:
 Criar: const frutas = ['Banana', 'Maçã']
 Exibir: console.log(frutas) // resultado - (2) ['Banana', 'Maçã']
 Exibir pelo indice: console.log(frutas[1]) // reusltado - ['Maçã']
+
+
+Aula 8 - Objetos 28/02/2025 - Teórica
+
+O que é? 
+
+Estrutura para se trabalhar com dicionários chave-valor
+Chave e valor em um objeto é chamdo de prioridade
+diferente de array o objeto não tem sequencia
+uma propriedade pode ter diferentes tipos de dados como chave(bool, string e number)
+também pode armazenar qualquer tipo de dado como valor
+Sintaxe:
+
+Criar: const pessoa = {nome: 'João', idade: 20}
+
+as propriedades e funções podem ser referenciadas por encademaento usando ponto ou colchetes
+
+exemplos:
+pessoa.nome //resultado - 'João'
+pessoa['nome'] //resultado - 'João'
+
+
