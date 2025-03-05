@@ -62,4 +62,26 @@ exemplos:
 pessoa.nome //resultado - 'João'
 pessoa['nome'] //resultado - 'João'
 
+Aula 8 - Objetos 28/02/2025 - Teórica
 
+Aula 12 - Funções 04/03/2025 - Teórica
+
+Estrutura que permite declarar um procedimento e executá-lo quando necessário
+
+uma função pode receber parâmetros e retornar um valor a esrutura seria ENTRADA > PROCEDIMENTO > SAIDA 
+
+Tanto a entrada quanto a saida sao opcionais, uma função pode exister mesmo que nao tenha nenhum dos dois.
+
+Entradas = Parâmetros 
+SAidas = Retorno
+
+Sintaxe 
+
+function nomeDaFuncao(parametro1, parametro2){
+    //código da função
+    return valorDeRetorno
+}
+
+para executar basta chamar 
+
+nomeDaFuncao(parametro1, parametro2);
